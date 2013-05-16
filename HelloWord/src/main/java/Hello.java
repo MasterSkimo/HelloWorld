@@ -1,5 +1,5 @@
 public class Hello {
 	public static String HelloWord(){
-		return "Hello Word";
+		return "Hello Word By Thomas";
 	}
 }
