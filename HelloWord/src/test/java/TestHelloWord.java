@@ -8,4 +8,8 @@ public class TestHelloWord {
 	public void HelloWordTest(){
 		Assert.assertEquals("Hello Word", Hello.HelloWord());
 	}
+	@Test
+	public void HelloWordTest2(){
+		Assert.assertEquals("Hello Word by Thomas", Hello.HelloWord());
+	}
 }
