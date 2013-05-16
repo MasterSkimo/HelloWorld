@@ -6,7 +6,7 @@ public class TestHelloWord {
 	
 	@Test
 	public void HelloWordTest(){
-		Assert.assertEquals("Hello Word", Hello.HelloWord());
+		Assert.assertEquals("Hello Word", Hello.HelloWord("Guti"));
 	}
 	@Test
 	public void HelloWordTest2(){
