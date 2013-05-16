@@ -12,4 +12,8 @@ public class TestHelloWord {
 	public void HelloWordTest2(){
 		Assert.assertEquals("Hello Word Thomas", Hello.HelloWord("Thomas"));
 	}
+	@Test
+	public void HelloWordTest3(){
+		Assert.assertEquals("Hello Word Julien", Hello.HelloWord("Julien"));
+	}
 }
